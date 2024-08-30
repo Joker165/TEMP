@@ -1,5 +1,5 @@
 {
-  "name": "btrx",
+  "name": "wasi",
   "version": "0.0.1",
   "description": "Simpel Bot Using Library Baileys",
   "main": "index.js",
