@@ -22,8 +22,8 @@ const { color } = require('./lib/myfunc')
 const version = require("@whiskeysockets/baileys/package.json").version 
 
 //owner
-global.owner = '62882020804531'
-global.nomerowner = ["62882020804531"]
+global.owner = '923192173398'
+global.nomerowner = ["923192173398"]
 
 //payment
 global.nomordana = '081351692548'
