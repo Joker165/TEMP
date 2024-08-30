@@ -1,21 +1,3 @@
-/**
- * Base By Siputzx
- * Created On 22/2/2024
- * Contact Me on wa.me/6288292024190
- * Supported By Gpt Assistant 
-
-SAYA ( KyuuRzy ) TIDAK BERTANGGUNG JAWAB JIKA SCRIPT INI DI SALAH GUNAKAN 
-DILARANG MENJUAL SCRIPT INI KEPADA KEPADA KRANG LAIN ( Karna Script ini Saya Akan Share Free )
-JIKA ADA YANG MENJUAL NYA, SAYA PERSILAHKAN BULLY DIA + BEBAS KENON
-KALAU MAU COLONG FITUR, MINIMAL MASUKIN NAMA GW DI TQTO KALIAN AJG
-
-DAH ITU DARI GW AJA
-Last Author : KyuuRzy 
-
-NYARI SC KEK GINI?
-PV TELE AJA : t.me/KyuuDev
-
-*/
 
 const fs = require('fs')
 const { color } = require('./lib/myfunc')
@@ -29,7 +11,7 @@ global.nomerowner = ["923192173398"]
 global.nomordana = '081351692548'
 
 //bot
-global.botname = "KyuuRzy"
+global.botname = "𝒲𝒜𝒮𝐼 𝐵𝒪𝒯"
 global.KyuuKuru = "https://telegra.ph/file/28282735848de7989301c.png"
 global.baileysVersion = `Baileys version ${version}`
 global.TypeBaileys = `whiskeysockets`
@@ -37,11 +19,11 @@ global.footer = `KyuuRzy 乂 𝐙͢𝐱𝐕 𝐂𝐋͢𝐢𝚵𝐍͢𝐓`
 global.prefa = ['','!','.',',','🐤','🗿']
 
 //watermark 
-global.packname = 'KyuuRzy'
-global.author = 'Slebewww'
+global.packname = '𝒲𝒜𝒮𝐼 𝐵𝒪𝒯'
+global.author = 'XD'
 
 //apikey
-global.caliph = 'MyBiibotz'
+global.caliph = 'WASIBOTZ'
 global.lolkey = 'aa287b0865449a8c9b530722'
 global.cookie = '_U=1o0gOAFjeuOfJGlzAx7CV-wDu6tv3Q1pbvjc3KbaXLiDaGQnJYmz'
 
