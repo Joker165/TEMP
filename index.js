@@ -1,22 +1,4 @@
-/**
 
- * Base By Siputzx
- * Created On 22/2/2024
- * Contact Me on wa.me/6288292024190
- * Supported By Gpt Assistant 
-
-SAYA ( KyuuRzy ) TIDAK BERTANGGUNG JAWAB JIKA SCRIPT INI DI SALAH GUNAKAN 
-DILARANG MENJUAL SCRIPT INI KEPADA KEPADA KRANG LAIN ( Karna Script ini Saya Akan Share Free )
-JIKA ADA YANG MENJUAL NYA, SAYA PERSILAHKAN BULLY DIA + BEBAS KENON
-KALAU MAU COLONG FITUR, MINIMAL MASUKIN NAMA GW DI TQTO KALIAN AJG
-
-DAH ITU DARI GW AJA
-Last Author : KyuuRzy 
-
-NYARI SC KEK GINI?
-PV TELE AJA : t.me/KyuuDev
-
-*/
 require('./config')
 const { default: makeWASocket, useMultiFileAuthState, generateForwardMessageContent, generateWAMessageFromContent, DisconnectReason, fetchLatestBaileysVersion, makeInMemoryStore, jidDecode, proto, getContentType, downloadContentFromMessage, fetchLatestWaWebVersion } = require("@whiskeysockets/baileys");
 const fs = require("fs");
@@ -47,10 +29,10 @@ const dbPath = './database.json';
 let db;
 if (urldb !== '') {
 db = new mongoDB(urldb);
-lolcatjs.fromString("[Berhasil tersambung ke database MongoDB]");
+lolcatjs.fromString("[Successfully connected to MongoDB database]");
 } else {
 db = new JSONFile(dbPath);
-lolcatjs.fromString("[Berhasil tersambung ke database Lokal]");
+lolcatjs.fromString("[Successfully connected to Local database]");
 }
 
 global.db = new Low(db);
