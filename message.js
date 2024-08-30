@@ -1,21 +1,4 @@
-/**
- * Base By Siputzx
- * Created On 22/2/2024
- * Contact Me on wa.me/6288292024190
- * Supported By Gpt Assistant 
 
-SAYA ( KyuuRzy ) TIDAK BERTANGGUNG JAWAB JIKA SCRIPT INI DI SALAH GUNAKAN 
-DILARANG MENJUAL SCRIPT INI KEPADA KEPADA KRANG LAIN ( Karna Script ini Saya Akan Share Free )
-JIKA ADA YANG MENJUAL NYA, SAYA PERSILAHKAN BULLY DIA + BEBAS KENON
-KALAU MAU COLONG FITUR, MINIMAL MASUKIN NAMA GW DI TQTO KALIAN AJG
-
-DAH ITU DARI GW AJA
-Last Author : KyuuRzy 
-
-NYARI SC KEK GINI?
-PV TELE AJA : t.me/KyuuDev
-
-*/
 require('./config')
 const { default: makeWaSocket, proto, generateWAMessageFromContent, downloadContentFromMessage, useMultiFileAuthState } = require('@whiskeysockets/baileys')
 const { exec, spawn, execSync } = require("child_process")
@@ -251,7 +234,7 @@ participant: "0@s.whatsapp.net",
   },
   message: {
 extendedTextMessage: {
-  text: "𝘒𝘺𝘶𝘶𝘙𝘻𝘺 𝘛𝘦𝘳𝘷𝘦𝘳𝘪𝘧𝘪𝘬𝘢𝘴𝘪 𝘖𝘭𝘦𝘩 𝘞𝘩𝘢𝘵𝘴𝘈𝘱𝘱",
+  text: "MR WASI WHATSAPP BOT",
   title: `Hmm`,
   jpgThumbnail: fs.readFileSync("./lib/thumbnail/KyuuTzy.png"),
 }}};
@@ -452,7 +435,7 @@ function getRandomHexColor() {
 async function replyq (text) {
 ptz.sendMessage(m.chat, {
 document: fs.readFileSync("./lib/jomok.js"),
-fileName: 'KyuuRzy Dev',
+fileName: 'WASI-DEV',
 caption: text,
 mimetype: 'application/html',
 headerType: 9,
@@ -460,7 +443,7 @@ jpegThumbnail:fs.readFileSync("./lib/thumbnail/Ikeh.jpg"),
 contextInfo:{
 mentionedJid: [m.sender],
     externalAdReply:{
-title: '𝐊𝐲𝐮𝐮𝐑𝐳𝐲 𝐙͢𝐱𝐕',
+title: '𝑀𝑅 𝒲𝒜𝒮𝐼 𝒟𝐸𝒱',
 body: 'In hoc maledicto mundo pax',
 thumbnail: menunya,
 showAdAttribution: true,
@@ -479,7 +462,7 @@ caption: teks,
 mimetype: 'application/pdf',
 headerType: 9,
 contextInfo:{externalAdReply:{
-title: `𝐊𝐲𝐮𝐮𝐑𝐳𝐲 𝐙͢𝐱𝐕`,
+title: `𝑀𝑅 𝒲𝒜𝒮𝐼 𝒟𝐸𝒱`,
 body: 'https://kyuurzy.my.id', 
 showAdAttribution: true,
 thumbnail: menunya,
@@ -1184,7 +1167,7 @@ ${Kyuu}${footer}${Kyuu}
 ───────────────────────`
 ptz.sendMessage(m.chat, {
 document: fs.readFileSync("./lib/jomok.js"),
-fileName: 'KyuuRzy Dev',
+fileName: 'WASI-DEV',
 caption: tek,
 mimetype: 'application/html',
 headerType: 9,
@@ -1192,7 +1175,7 @@ jpegThumbnail:fs.readFileSync("./lib/thumbnail/Ikeh.jpg"),
 contextInfo:{
 mentionedJid: [m.sender],
     externalAdReply:{
-title: '𝐊𝐲𝐮𝐮𝐑𝐳𝐲 𝐙͢𝐱𝐕',
+title: '𝑀𝑅 𝒲𝒜𝒮𝐼 𝒟𝐸𝒱',
 body: 'In hoc maledicto mundo pax',
 thumbnail: menunya,
 showAdAttribution: true,
@@ -1303,7 +1286,7 @@ ${Kyuu}${footer}${Kyuu}
 ───────────────────────`
 ptz.sendMessage(m.chat, {
 document: fs.readFileSync("./lib/jomok.js"),
-fileName: 'KyuuRzy Dev',
+fileName: 'WASI-DEV',
 caption: tekk,
 mimetype: 'application/html',
 headerType: 9,
@@ -1311,7 +1294,7 @@ jpegThumbnail:fs.readFileSync("./lib/thumbnail/Ikeh.jpg"),
 contextInfo:{
 mentionedJid: [m.sender],
     externalAdReply:{
-title: '𝐊𝐲𝐮𝐮𝐑𝐳𝐲 𝐙͢𝐱𝐕',
+title: '𝑀𝑅 𝒲𝒜𝒮𝐼 𝒟𝐸𝒱',
 body: 'In hoc maledicto mundo pax',
 thumbnail: menunya,
 showAdAttribution: true,
@@ -1352,7 +1335,7 @@ ${Kyuu}${footer}${Kyuu}
 ───────────────────────`
 ptz.sendMessage(m.chat, {
 document: fs.readFileSync("./lib/jomok.js"),
-fileName: 'KyuuRzy Dev',
+fileName: 'WASI-DEV',
 caption: ongner,
 mimetype: 'application/html',
 headerType: 9,
@@ -1360,7 +1343,7 @@ jpegThumbnail:fs.readFileSync("./lib/thumbnail/Ikeh.jpg"),
 contextInfo:{
 mentionedJid: [m.sender],
     externalAdReply:{
-title: '𝐊𝐲𝐮𝐮𝐑𝐳𝐲 𝐙͢𝐱𝐕',
+title: '𝑀𝑅 𝒲𝒜𝒮𝐼 𝒟𝐸𝒱',
 body: 'In hoc maledicto mundo pax',
 thumbnail: menunya,
 showAdAttribution: true,
@@ -1395,7 +1378,7 @@ ${Kyuu}${footer}${Kyuu}
 ───────────────────────`
 ptz.sendMessage(m.chat, {
 document: fs.readFileSync("./lib/jomok.js"),
-fileName: 'KyuuRzy Dev',
+fileName: 'WASI-DEV',
 caption: atak,
 mimetype: 'application/html',
 headerType: 9,
@@ -1403,7 +1386,7 @@ jpegThumbnail:fs.readFileSync("./lib/thumbnail/Ikeh.jpg"),
 contextInfo:{
 mentionedJid: [m.sender],
     externalAdReply:{
-title: '𝐊𝐲𝐮𝐮𝐑𝐳𝐲 𝐙͢𝐱𝐕',
+title: '𝑀𝑅 𝒲𝒜𝒮𝐼 𝒟𝐸𝒱',
 body: 'In hoc maledicto mundo pax',
 thumbnail: menunya,
 showAdAttribution: true,
@@ -1442,7 +1425,7 @@ ${Kyuu}${footer}${Kyuu}
 ───────────────────────`
 ptz.sendMessage(m.chat, {
 document: fs.readFileSync("./lib/jomok.js"),
-fileName: 'KyuuRzy Dev',
+fileName: 'WASI-DEV',
 caption: stiker,
 mimetype: 'application/html',
 headerType: 9,
@@ -1450,7 +1433,7 @@ jpegThumbnail:fs.readFileSync("./lib/thumbnail/Ikeh.jpg"),
 contextInfo:{
 mentionedJid: [m.sender],
     externalAdReply:{
-title: '𝐊𝐲𝐮𝐮𝐑𝐳𝐲 𝐙͢𝐱𝐕',
+title: '𝑀𝑅 𝒲𝒜𝒮𝐼 𝒟𝐸𝒱',
 body: 'In hoc maledicto mundo pax',
 thumbnail: menunya,
 showAdAttribution: true,
@@ -1491,7 +1474,7 @@ ${Kyuu}${footer}${Kyuu}
 ───────────────────────`
 ptz.sendMessage(m.chat, {
 document: fs.readFileSync("./lib/jomok.js"),
-fileName: 'KyuuRzy Dev',
+fileName: 'WASI-DEV',
 caption: tuls,
 mimetype: 'application/html',
 headerType: 9,
@@ -1499,7 +1482,7 @@ jpegThumbnail:fs.readFileSync("./lib/thumbnail/Ikeh.jpg"),
 contextInfo:{
 mentionedJid: [m.sender],
     externalAdReply:{
-title: '𝐊𝐲𝐮𝐮𝐑𝐳𝐲 𝐙͢𝐱𝐕',
+title: '𝑀𝑅 𝒲𝒜𝒮𝐼 𝒟𝐸𝒱',
 body: 'In hoc maledicto mundo pax',
 thumbnail: menunya,
 showAdAttribution: true,
@@ -1536,7 +1519,7 @@ ${Kyuu}${footer}${Kyuu}
 ───────────────────────`
 ptz.sendMessage(m.chat, {
 document: fs.readFileSync("./lib/jomok.js"),
-fileName: 'KyuuRzy Dev',
+fileName: 'WASI-DEV',
 caption: ayi,
 mimetype: 'application/html',
 headerType: 9,
@@ -1544,7 +1527,7 @@ jpegThumbnail:fs.readFileSync("./lib/thumbnail/Ikeh.jpg"),
 contextInfo:{
 mentionedJid: [m.sender],
     externalAdReply:{
-title: '𝐊𝐲𝐮𝐮𝐑𝐳𝐲 𝐙͢𝐱𝐕',
+title: '𝑀𝑅 𝒲𝒜𝒮𝐼 𝒟𝐸𝒱',
 body: 'In hoc maledicto mundo pax',
 thumbnail: menunya,
 showAdAttribution: true,
@@ -1589,7 +1572,7 @@ ${Kyuu}${footer}${Kyuu}
 ───────────────────────`
 ptz.sendMessage(m.chat, {
 document: fs.readFileSync("./lib/jomok.js"),
-fileName: 'KyuuRzy Dev',
+fileName: 'WASI-DEV',
 caption: vois,
 mimetype: 'application/html',
 headerType: 9,
@@ -1597,7 +1580,7 @@ jpegThumbnail:fs.readFileSync("./lib/thumbnail/Ikeh.jpg"),
 contextInfo:{
 mentionedJid: [m.sender],
     externalAdReply:{
-title: '𝐊𝐲𝐮𝐮𝐑𝐳𝐲 𝐙͢𝐱𝐕',
+title: '𝑀𝑅 𝒲𝒜𝒮𝐼 𝒟𝐸𝒱',
 body: 'In hoc maledicto mundo pax',
 thumbnail: menunya,
 showAdAttribution: true,
@@ -1636,7 +1619,7 @@ ${Kyuu}${footer}${Kyuu}
 ───────────────────────`
 ptz.sendMessage(m.chat, {
 document: fs.readFileSync("./lib/jomok.js"),
-fileName: 'KyuuRzy Dev',
+fileName: 'WASI-DEV',
 caption: gruk,
 mimetype: 'application/html',
 headerType: 9,
@@ -1644,7 +1627,7 @@ jpegThumbnail:fs.readFileSync("./lib/thumbnail/Ikeh.jpg"),
 contextInfo:{
 mentionedJid: [m.sender],
     externalAdReply:{
-title: '𝐊𝐲𝐮𝐮𝐑𝐳𝐲 𝐙͢𝐱𝐕',
+title: '𝑀𝑅 𝒲𝒜𝒮𝐼 𝒟𝐸𝒱',
 body: 'In hoc maledicto mundo pax',
 thumbnail: menunya,
 showAdAttribution: true,
@@ -1679,7 +1662,7 @@ _*Main Menu*_
 ${Kyuu}${footer}${Kyuu}`
 ptz.sendMessage(m.chat, {
 document: fs.readFileSync("./lib/jomok.js"),
-fileName: 'KyuuRzy Dev',
+fileName: 'WASI-DEV',
 caption: maen,
 mimetype: 'application/html',
 headerType: 9,
@@ -1687,8 +1670,8 @@ jpegThumbnail:fs.readFileSync("./lib/thumbnail/Ikeh.jpg"),
 contextInfo:{
 mentionedJid: [m.sender],
     externalAdReply:{
-title: '𝐊𝐲𝐮𝐮𝐑𝐳𝐲 𝐙͢𝐱𝐕',
-body: 'In hoc maledicto mundo pax',
+title: '𝑀𝑅 𝒲𝒜𝒮𝐼 𝒟𝐸𝒱',
+body: 'WELL COME TO MR WASI TECH ',
 thumbnail: menunya,
 showAdAttribution: true,
 renderLargerThumbnail: true,
@@ -1784,7 +1767,7 @@ case 'ai':
                   mediaType: 1,
                   mediaUrl: url,
                   title: title,
-                  body: "2024 © KyuuRzy",
+                  body: "2024 © WASI",
                   sourceUrl: url,
                   thumbnail: await (await ptz.getFile(thumbnail)).data,
                 },
